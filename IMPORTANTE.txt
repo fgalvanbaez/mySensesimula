@@ -1,0 +1,52 @@
+//make iris install,1  mib520,/dev/ttyUSB2
+
+Instalar en mote
+
+
+simulación make micaz sim-sf
+
+si problemas con java, hacer make en el directorio support/sdk/java
+
+capitulo 5 begin nfc codigo ejemplo cualquier forma lectura etiqueta nfc
+
+en código javascript utilizar un plugin phonegap-http-request
+objeto HttpRequest () 
+var http= new HttpRequest
+http.get("mi-cadena-url", function(status, data))
+
+
+//Para emular el uso de nfc
+OpenNFC -> SDK
+	-> ultimo android
+	
+	android -> add-on -> dir <-> OpenNFC
+	
+	
+	android-sdk -> adds-on ->>> copiar dir aqui
+	source.properties
+	
+	
+	con "android avd" creamos un disposituvo virtual nuevo
+	en target elegimos OpenNFC.
+	
+	
+	
+sdk -> conect_manager
+
+
+
+    -> nfc_simulator
+    
+    
+    primero empezar simulador android
+    
+    adb pull /data/connection-center-access
+    
+    s ip maquina ejecutando connect_manager
+    
+    adb push /data/connection_center_access
+    
+    connect-manager habilitar conexiones de clientes con
+    
+    si virtualbox 2 adaptadores 1 NAT, 2 Host only network (1 pref virtualbox añadir, 2 configuracion red en virtual)
+	
